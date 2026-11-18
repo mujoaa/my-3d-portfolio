@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#141613" />
+    <meta name="description" content="一杯のコーヒー、一音のギター、一冊の小説、一本の道。好きなものを巡る、mujoaaの小さな3Dポートフォリオ。" />
+    <meta property="og:title" content="余白 / Y O H A K U — 好きなものが、私をつくる。" />
+    <meta property="og:description" content="コーヒー、ギター、小説、バイク。4つの好きなものを巡る、小さな3Dギャラリー。" />
+    <meta property="og:type" content="website" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <title>余白 / Y O H A K U — mujoaa</title>
+    <link rel="stylesheet" href="./src/style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">本文へスキップ</a>
+    <div class="ambient" aria-hidden="true"></div>
+    <div id="stage" aria-hidden="true"></div>
+    <div class="grain" aria-hidden="true"></div>
+    <header class="site-header">
+      <a class="wordmark" href="#home" aria-label="余白 ホーム"><span class="mark">余白<span class="mark-dot">.</span></span><span class="wordmark-sub">YOHAKU / MUJOAA</span></a>
+      <nav class="desktop-nav" aria-label="メイン"><a href="#coffee">Collection <span>04</span></a><a href="#about">About <span>↗</span></a></nav>
+      <button id="motion-toggle" type="button" aria-pressed="false" aria-label="3D表示を切り替える" hidden><span class="status-dot"></span><span id="mode-label">3D ON</span></button>
+    </header>
+    <main id="main">
+      <section id="home" class="hero scene-section" data-scene="0" aria-labelledby="hero-title">
+        <div class="hero-eyebrow"><span class="tiny-cross">✳</span> A PERSONAL COLLECTION <span class="edition">VOL. 01 / 2026</span></div>
+        <div class="hero-copy">
+          <p class="overline">日々に、少しの余白を。</p>
+          <h1 id="hero-title">好きなものが、<br><span>私をつくる。</span></h1>
+          <p class="hero-description">香り。響き。物語。そして、風。<br>何気ない日常を、少しだけ豊かにするもの。<br>私の「好き」を巡る、小さな旅へ。</p>
+          <a class="journey-link" href="#coffee"><span class="round-arrow">↓</span><span>好きなものを巡る<small>EXPLORE THE COLLECTION</small></span></a>
+        </div>
+        <div class="hero-art art-fallback"><img src="./art/coffee.svg" alt="" width="720" height="720"></div>
+        <div class="object-note"><span class="note-line"></span>THE BEAUTY OF EVERYDAY THINGS</div>
+        <div class="hero-bottom"><span class="scroll-note">SCROLL TO DISCOVER <span>↓</span></span><p>些細なことに、心が動く。</p><span class="coordinates">FOUR OBJECTS / ONE UNIVERSE</span></div>
+      </section>
+      <div class="collection-index" aria-label="コレクション目次">
+        <a href="#coffee"><span class="index-number">01</span><span>Coffee<small>コーヒー</small></span><span class="index-icon">↗</span></a>
+        <a href="#guitar"><span class="index-number">02</span><span>Guitar<small>ギター</small></span><span class="index-icon">↗</span></a>
+        <a href="#novels"><span class="index-number">03</span><span>Novels<small>小説</small></span><span class="index-icon">↗</span></a>
+        <a href="#motorcycle"><span class="index-number">04</span><span>Motorcycle<small>バイク</small></span><span class="index-icon">↗</span></a>
+      </div>
+      <section id="coffee" class="chapter scene-section" data-scene="0" aria-labelledby="coffee-title">
+        <div class="chapter-copy"><p class="overline"><span>01 / 04</span> — THE SLOW MORNING</p><h2 id="coffee-title">Coffee<span>一杯から、<br>はじまる。</span></h2><p class="chapter-description">豆を挽く音。お湯を注ぐ、その数分。<br>立ちのぼる香りとともに、心がほどけていく。<br>慌ただしい日にも、自分のペースを取り戻す時間。</p><div class="detail-line"><span>私にとってのコーヒー</span><p>日常に、小さな句読点を。</p></div><a class="next-link" href="#guitar">次は、音のある時間へ <span>↓</span></a></div>
+        <div class="chapter-art art-fallback"><img src="./art/coffee.svg" alt="" width="720" height="720" loading="lazy"></div>
+        <span class="chapter-watermark" aria-hidden="true">01</span><span class="object-caption">FIG. 01 — A MOMENT TO SLOW DOWN</span>
+      </section>
+      <section id="guitar" class="chapter scene-section" data-scene="1" aria-labelledby="guitar-title">
+        <div class="chapter-copy"><p class="overline"><span>02 / 04</span> — A LITTLE RESONANCE</p><h2 id="guitar-title">Guitar<span>言葉になる前の、<br>気持ちを。</span></h2><p class="chapter-description">弦に触れると、空気が少しだけ変わる。<br>うまく弾ける日も、そうでない日も。<br>音にしてみれば、今日の自分がわかる気がする。</p><div class="detail-line"><span>私にとってのギター</span><p>何も考えず、夢中になれること。</p></div><a class="next-link" href="#novels">次は、物語の中へ <span>↓</span></a></div>
+        <div class="chapter-art art-fallback"><img src="./art/guitar.svg" alt="" width="720" height="720" loading="lazy"></div>
+        <span class="chapter-watermark" aria-hidden="true">02</span><span class="object-caption">FIG. 02 — FIND YOUR OWN RHYTHM</span>
+      </section>
+      <section id="novels" class="chapter scene-section" data-scene="2" aria-labelledby="novels-title">
+        <div class="chapter-copy"><p class="overline"><span>03 / 04</span> — BETWEEN THE LINES</p><h2 id="novels-title">Novels<span>ここではない、<br>どこかへ。</span></h2><p class="chapter-description">ページをめくれば、知らない街を歩いている。<br>誰かの人生を、少しだけ生きてみる。<br>読み終えたあと、いつもの景色も違って見える。</p><div class="detail-line"><span>私にとっての小説</span><p>想像することは、自由になること。</p></div><a class="next-link" href="#motorcycle">次は、まだ知らない道へ <span>↓</span></a></div>
+        <div class="chapter-art art-fallback"><img src="./art/novels.svg" alt="" width="720" height="720" loading="lazy"></div>
+        <span class="chapter-watermark" aria-hidden="true">03</span><span class="object-caption">FIG. 03 — A WORLD WITHIN A PAGE</span>
+      </section>
+      <section id="motorcycle" class="chapter scene-section" data-scene="3" aria-labelledby="motorcycle-title">
+        <div class="chapter-copy"><p class="overline"><span>04 / 04</span> — BEYOND THE FAMILIAR</p><h2 id="motorcycle-title">Motorcycle<span>遠回りが、<br>したくなる。</span></h2><p class="chapter-description">ヘルメットの向こうに、流れていく景色。<br>目的地よりも、そこまでの道が好きだ。<br>風の温度を感じながら、まだ知らない自分に出会う。</p><div class="detail-line"><span>私にとってのバイク</span><p>いつもの世界を、少し広げるもの。</p></div><a class="next-link" href="#about">旅の、その先へ <span>↓</span></a></div>
+        <div class="chapter-art art-fallback"><img src="./art/motorcycle.svg" alt="" width="720" height="720" loading="lazy"></div>
+        <span class="chapter-watermark" aria-hidden="true">04</span><span class="object-caption">FIG. 04 — TAKE THE LONG WAY HOME</span>
+      </section>
+      <section id="about" class="about scene-section" data-scene="4" aria-labelledby="about-title"><p class="overline">THE COLLECTION CONTINUES</p><h2 id="about-title">余白に、<br>自分らしさを。</h2><p>好きなものを集めたら、<br>少しだけ、自分の輪郭が見えてきた。<br>これは、私をつくるものの記録。</p><a class="github-link" href="https://github.com/mujoaa/my-3d-portfolio" target="_blank" rel="noopener noreferrer">GitHubで、このサイトの裏側へ <span>↗</span></a><a class="back-top" href="#home">もう一度、はじめから ↑</a></section>
+    </main>
+    <aside class="side-progress" aria-label="章のナビゲーション"><a href="#coffee" aria-label="01 コーヒー"><span>01</span></a><a href="#guitar" aria-label="02 ギター"><span>02</span></a><a href="#novels" aria-label="03 小説"><span>03</span></a><a href="#motorcycle" aria-label="04 バイク"><span>04</span></a></aside>
+    <footer><a class="footer-mark" href="#home">余白.</a><span>© 2026 MUJOAA</span><span>MADE OF THINGS I LOVE.</span></footer>
+    <div class="reading-progress" aria-hidden="true"><span id="progress-bar"></span></div>
+    <p id="display-status" class="sr-only" role="status" aria-live="polite"></p>
+    <noscript><p class="noscript-note">静止画でコレクションをご覧いただけます。</p></noscript>
+    <script type="module" src="./src/main.ts"></script>
+  </body>
+</html>
+
